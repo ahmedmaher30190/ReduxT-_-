@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
-import { store } from './redux/store';
+import { store } from './redux';
 import { Counter } from './com/Counter';
 
 export default function App() {
